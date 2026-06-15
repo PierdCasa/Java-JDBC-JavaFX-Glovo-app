@@ -83,13 +83,14 @@ src/
 ### Landing Page 
 ![Landing Page](docs_github/ui_glovo_landing.png)
 
-1. Customer Order History :
+1. Customer Order History and Menu View :
+   ![Menu View](docs_github/ui_glovo_0.png)
    ![Map View](docs_github/glovo_ui_map.png)
-2. Restaurant Dashboard :
+3. Restaurant Dashboard :
    ![Restaurant Active Orders](docs_github/ui_glovo_2.png)
-3. Delivery Man Dashboard :
+4. Delivery Man Dashboard :
    ![Delivery Man Orders](docs_github/ui_glovo_3.png)
-4. Customer Reviews :
+5. Customer Reviews :
    ![Customer Review](docs_github/ui_glovo_4.png)
-5. Restaurant Feedback :
+6. Restaurant Feedback :
    ![Restaurant Feedback](docs_github/ui_glovo_5.png)
