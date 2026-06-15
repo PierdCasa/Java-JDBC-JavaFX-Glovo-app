@@ -5,9 +5,10 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static final String URL = "jdbc:mariadb://localhost:3306/glovo_db";
-    private static final String USER = "mario";
-    private static final String PASSWORD = "t1234578";
+    //IMPORTANT edit the following according to yout MariaDB database
+    private static final String URL = "jdbc:mariadb://localhost:3306/DATABASE_NAME";
+    private static final String USER = "USERNAME";
+    private static final String PASSWORD = "PASSWORD";
 
     private static DatabaseConnection instance;
     private Connection connection;
