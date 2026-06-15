@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     //IMPORTANT edit the following according to yout MariaDB database
-    private static final String URL = "jdbc:mariadb://localhost:3306/DATABASE_NAME";
+    private static final String URL = "jdbc:mariadb://localhost:3306/glovo_db";
     private static final String USER = "USERNAME";
     private static final String PASSWORD = "PASSWORD";
 
