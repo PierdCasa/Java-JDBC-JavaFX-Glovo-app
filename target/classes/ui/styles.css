@@ -1,0 +1,102 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-background-color: #F8F9FA;
+}
+
+/* Typography */
+.heading-1 {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1A1A1A;
+}
+
+.heading-2 {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+.text-normal {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555555;
+}
+
+.text-bold {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1A1A1A;
+}
+
+/* Primary Glovo-like Button */
+.btn-primary {
+    -fx-background-color: #FFC244;
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 20px;
+    -fx-padding: 10px 24px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 2);
+}
+
+.btn-primary:hover {
+    -fx-background-color: #FFCD66;
+}
+
+.btn-primary:pressed {
+    -fx-background-color: #E6B03D;
+    -fx-effect: none;
+    -fx-translate-y: 2px;
+}
+
+/* Secondary Button (Outline or White) */
+.btn-secondary {
+    -fx-background-color: #FFFFFF;
+    -fx-text-fill: #FFC244;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 20px;
+    -fx-border-color: #FFC244;
+    -fx-border-radius: 20px;
+    -fx-border-width: 2px;
+    -fx-padding: 8px 22px;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #FFF8E7;
+}
+
+/* Inputs */
+.text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #DDDDDD;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #FFC244;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 194, 68, 0.4), 5, 0, 0, 0);
+}
+
+/* Cards (Restaurants, Items) */
+.card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 12px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.08), 8, 0, 0, 4);
+}
+
+.card:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 12, 0, 0, 6);
+    -fx-cursor: hand;
+}
+
+.navbar {
+    -fx-background-color: #FFFFFF;
+    -fx-padding: 15px 30px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);
+}
