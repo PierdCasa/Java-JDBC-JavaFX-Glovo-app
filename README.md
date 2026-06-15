@@ -79,4 +79,15 @@ src/
    ```bash
    mvn javafx:run
    ```
+## Screenshots 
 
+1. Customer Order History :
+   ![Map View](docs_github/glovo_ui_map.png)
+2. Restaurant Dashboard :
+   ![Restaurant Active Orders](docs_github/ui_glovo_2.png)
+3. Delivery Man Dashboard :
+   ![Delivery Man Orders](docs_github/ui_glovo_3.png)
+4. Customer Reviews :
+   ![Customer Review](docs_github/ui_glovo_4.png)
+5. Restaurant Feedback :
+   ![Restaurant Feedback](docs_github/ui_glovo_5.png)
