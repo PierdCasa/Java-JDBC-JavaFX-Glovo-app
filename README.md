@@ -15,9 +15,9 @@ A comprehensive, desktop-based food delivery application inspired by Glovo. Buil
 - **Delivery Personnel Dashboard**: Track assigned deliveries, update order statuses (In Transit, Delivered), and view completed trips.
 
 ### Core Delivery & Business Logic
-- **Dynamic Order Assignment**: Automatically matches placed orders with available delivery drivers based on system state.
-- **Real-time Weather Simulation**: Uses the Observer pattern to simulate rainy weather conditions, which dynamically triggers different delivery fee strategies.
-- **Digital Wallet Payment System**: Users can top up their digital wallets and seamlessly pay for their orders.
+- **Dynamic Order Assignment**: Automatically matches placed orders with available delivery drivers based on system state (computes the minimum Euclidian distance from all the current delivery drivers to the restaurant).
+- **Real-time Weather Simulation**: Uses the Observer pattern to simulate rainy weather conditions, which dynamically triggers different delivery fee strategies (each time the app is first started there is a fixed 50% probability of raining , which adds additional delivery fees).
+- **Digital Wallet Payment System**: Users can top up their digital wallets and seamlessly pay for their orders. Implementes Revenue Streams , the money for each order payment is held into an Escrow wallet until the Order is finished , then it is split amongst the driver, restaurant and platform. 
 - **Review & Rating System**: Customers can leave a 1-5 star rating and comment on their experience after an order is completed.
 
 ### System & Architecture
